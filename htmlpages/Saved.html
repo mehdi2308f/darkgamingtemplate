@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+      integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- *Navbar Starts Here -->
+      <div class="nav1">
+        <nav>
+          <h1>FlamingFrontEnd</h1>
+          <ul>
+            <li class="hover firstnavitems">
+              <a href="../index.html">Home</a>
+            </li>
+            <li class="hover firstnavitems"><a href="about.html">About</a></li>
+            <li class="hover firstnavitems">
+              <a href="ContactUs.html">Contact</a>
+            </li>
+            <li class="hover firstnavitems">
+              <a href="#feedbacksection">Feedback</a>
+            </li>
+            <li class="hover firstnavitems">
+              <a href="Quotes.html">Qoutes</a>
+            </li>
+
+            <li>
+              <i
+                class="fa fa-bars"
+                onclick="showsecondnav()"
+                aria-hidden="true"
+              ></i>
+            </li>
+            <li><i class="fa fa-times" onclick="hidesecondnav()"></i></li>
+          </ul>
+          <div class="sign">
+            <a href="SignIn.html"
+              ><i class="fa fa-user" aria-hidden="true"></i
+            ></a>
+            <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i></a>
+          </div>
+        </nav>
+      </div>
+
+      <div class="nav2">
+        <nav>
+          <div class="semicontainer">
+            <ul>
+              <li class="hover firstnavitems">
+                <a href="../index.html">Home</a>
+              </li>
+              <li class="hover firstnavitems">
+                <a href="about.html">About</a>
+              </li>
+              <li class="hover firstnavitems">
+                <a href="ContactUs.html">Contact</a>
+              </li>
+              <li class="hover firstnavitems">
+                <a href="#feedbacksection">Feedback</a>
+              </li>
+              <li class="hover firstnavitems"><a href="#">Qoutes</a></li>
+            </ul>
+            <p></p>
+            <div class="sign">
+              <a href="SignIn.html"
+                ><i class="fa fa-user" aria-hidden="true"></i
+              ></a>
+              <a href="Saved.html"
+                ><i class="fa fa-bookmark" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- *Navbar Ends Here -->
+    </header>
+
+    <main>
+      <div class="saved">
+        <div class="banner">
+          <h1>
+            <i class="fa fa-bookmark" aria-hidden="true"></i>
+            Saved
+          </h1>
+        </div>
+        <div class="contend">
+          <div class="box box1">
+            <p>"Finish him!" <br />- Mortal Kombat, Shang Tsung</p>
+            <button>Remove</button>
+          </div>
+          <div class="box box2">
+            <p>
+              "Good men mean well; we just don't always end up doing well."<br />
+              - Isaac Clarke, Dead Space
+            </p>
+            <button>Remove</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- todo Footer Starts Here -->
+    <footer>
+      <div class="footer" id="feedbacksection">
+        <div class="row">
+          <div class="col-lg-5 col-md-12">
+            <div class="firstfootersection">
+              <div class="subscribe">
+                <h1>For Daily Updates</h1>
+                <input
+                  type="Email"
+                  placeholder="Email*"
+                  class="inputsubs"
+                /><button>
+                  Subscripe
+                  <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                </button>
+              </div>
+              <div class="sociallinks">
+                <h1>Get In Touch</h1>
+                <div class="SocialLinks">
+                  <a href="">
+                    <i class="fa fa-instagram" aria-hidden="true"></i
+                  ></a>
+                  <a href="">
+                    <i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+
+                  <a href=""
+                    ><i class="fa fa-youtube-play" aria-hidden="true"></i
+                  ></a>
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-12">
+            <div class="secondfootersection">
+              <h1>FeedBack</h1>
+
+              <div class="footerform">
+                <form class="" action="">
+                  <input
+                    type="text"
+                    class="input"
+                    placeholder="Name*"
+                    required
+                  />
+                  <input
+                    type="text"
+                    class="input"
+                    placeholder="Email*"
+                    required
+                  />
+
+                  <textarea
+                    name=""
+                    class="input textarea"
+                    placeholder="Message* "
+                    id=""
+                    cols="30"
+                    rows="10"
+                  ></textarea
+                  ><br />
+                  <button class="btn1">
+                    Submit &nbsp;
+                    <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- todo Footer Ends Here -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.js"
+      integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 5,
+          },
+        },
+      });
+    </script>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
